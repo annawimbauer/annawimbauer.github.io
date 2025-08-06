@@ -22,19 +22,19 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "Profilbild.jpeg"
+  name             : "Anna Wimbauer"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "BIFOLD | Technical University of Berlin"
+  bio              : "PhD Student @ BIFOLD"
+  location         : "Berlin"
+  employer         : "BIFOLD | TU Berlin"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : #"none@example.org" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=qvqelZsAAAAJ&hl"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : # "http://orcid.org/yourorcidurl"
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : www.linkedin.com/in/annawimbauer
+  linkedin         : annawimbauer
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
