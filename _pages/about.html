@@ -16,7 +16,7 @@ redirect_from:
 <h2>Publications</h2>
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">You can find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
@@ -32,7 +32,6 @@ redirect_from:
       {% endif %}
     {% endfor %}
     {% if has_publications %}
-      <h2>{{ category[1].title }}</h2><hr />
       {% for post in site.publications reversed %}
         {% if post.category == category[0] %}
           {% include archive-single.html %}
