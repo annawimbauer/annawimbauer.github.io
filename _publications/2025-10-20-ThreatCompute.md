@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2025-10-20-threatcompute
 date: 2025-10-20
-venue: 'Proceedings of the 2025 Cloud Computing Security Workshop (CCSW '25)'
+venue: "Proceedings of the 2025 Cloud Computing Security Workshop (CCSW '25)"
 paperurl: 'https://doi.org/10.1145/3733812.3765533'
 bibtexurl: 'http://academicpages.github.io/files/bibtex_ThreatCompute.bib'
 citation: 'Wimbauer, A., Muscariello, L., Samain, J., Steger, L., Glas, K., Helm, M., & Carle, G. (2025). ThreatCompute: Leveraging LLMs for Automated Threat Modeling of Cloud-Native Applications. In Proceedings of the 2025 Cloud Computing Security Workshop (pp. 14-27). Association for Computing Machinery. https://doi.org/10.1145/3733812.3765533'
