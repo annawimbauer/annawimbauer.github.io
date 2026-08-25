@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<p>I am a first-year PhD student at the research group for <a href="https://mlsec.org/">Machine Learning and Security</a> under the supervison of <a href="https://mlsec.org/team/rieck/">Konrad Rieck</a> within the <a href="https://www.bifold.berlin/">Berlin Institute for the Foundations of Learning and Data</a>.</p>
+<p>I am a PhD student at the research group for <a href="https://mlsec.org/">Machine Learning and Security</a> under the supervison of <a href="https://mlsec.org/team/rieck/">Konrad Rieck</a> within the <a href="https://www.bifold.berlin/">Berlin Institute for the Foundations of Learning and Data</a>.</p>
 <p>Previously, I completed a double master's degree in Computer Science and Cybersecurity at the Technical University of Munich and the Institut Polytechnique de Paris.</p>
 <p>I hold a B.Sc. in Computer Science from LMU Munich.</p>
 
@@ -21,6 +21,7 @@ redirect_from:
 
 {% include base_path %}
 
+<div class="publications-list">
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
@@ -44,3 +45,4 @@ redirect_from:
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
+</div>

@@ -1,0 +1,35 @@
+/*
+ * Site-specific overrides that don't belong in the theme partials above.
+ */
+
+.publications-list {
+  .archive__item {
+    margin-bottom: 0.75em;
+  }
+
+  .archive__item-title {
+    font-size: $type-size-6;
+    margin-bottom: 0.1em;
+
+    a {
+      color: inherit;
+
+      &:hover {
+        color: inherit;
+      }
+    }
+  }
+
+  .archive__item-authors {
+    margin-bottom: 0.1em;
+  }
+
+  .archive__item-venue {
+    font-style: italic;
+  }
+
+  p {
+    font-size: $type-size-6;
+    margin-bottom: 0.25em;
+  }
+}
